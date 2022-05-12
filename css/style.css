@@ -1,0 +1,33 @@
+body{
+    background-color: #1e2020;
+}
+
+.header{
+    background-color: #f26a2e;
+    color: #1e2020;
+    padding: 25px;
+    text-align: center;
+}
+#img_1{
+    border: 10px solid #ff0000;
+	max-width:400px;
+}
+#img_1:active{
+    border: 10px solid #dbdbdb;
+	transform: scale(1.2);
+}
+#img_2{
+    border: 10px solid #ff0000;
+	max-width:400px;
+}
+
+#img_2:active{
+    border: 10px solid #dbdbdb;
+	transform: rotateZ(180deg);
+}
+
+section{
+    padding: 10px;
+    display:flex;
+    justify-content: space-around;
+}
